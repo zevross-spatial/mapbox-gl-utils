@@ -1,0 +1,81 @@
+{
+  "_from": "mapbox-gl-utils",
+  "_id": "mapbox-gl-utils@0.31.0",
+  "_inBundle": false,
+  "_integrity": "sha512-a8n0nUtJ/Rshy3sHEcG5IkR03+cJ6YboaOzarjJyTMtsai8Xiix1ECf/sRP9AL8pRGlD+zB4y3ybhKLRxsb9xQ==",
+  "_location": "/mapbox-gl-utils",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "mapbox-gl-utils",
+    "name": "mapbox-gl-utils",
+    "escapedName": "mapbox-gl-utils",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/mapbox-gl-utils/-/mapbox-gl-utils-0.31.0.tgz",
+  "_shasum": "47e578d834b5ee243b6c03bf4ba7d307daa41263",
+  "_spec": "mapbox-gl-utils",
+  "_where": "/Users/chrismarx/github/proj-hivemapper-locke/web/hivemapper-grid-app",
+  "author": {
+    "name": "Steve Bennett",
+    "email": "me@stevebennett.me",
+    "url": "http://stevebennett.me"
+  },
+  "bugs": {
+    "url": "https://github.com/stevage/mapbox-gl-utils/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@mapbox/expression-jamsession": "^0.4.2",
+    "kebab-case": "^1.0.0"
+  },
+  "deprecated": false,
+  "description": "Utility functions for Mapbox-GL-JS",
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.0.0-0",
+    "@babel/preset-env": "^7.8.3",
+    "@mapbox/mapbox-gl-style-spec": "latest",
+    "jest": "^25.1.0"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "homepage": "https://github.com/stevage/mapbox-gl-utils#readme",
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
+  },
+  "keywords": [
+    "mapbox",
+    "mapbox-gl-js",
+    "utility",
+    "geojson",
+    "style",
+    "layers",
+    "maps"
+  ],
+  "license": "Apache-2.0",
+  "main": "dist/index.js",
+  "name": "mapbox-gl-utils",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevage/mapbox-gl-utils.git"
+  },
+  "scripts": {
+    "babel": "babel src -d dist",
+    "main": "dist/index.js",
+    "prepublish": "yarn run update-keys; yarn run babel",
+    "test": "jest src/",
+    "test10": "n use 10.0.0 node_modules/jest/bin/jest.js",
+    "update-keys": "node updateKeys"
+  },
+  "version": "0.31.0"
+}
