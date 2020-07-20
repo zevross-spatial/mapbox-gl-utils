@@ -1,5 +1,4 @@
-# Note - this repo is here because I ran into problems with this lib, and had to manually fix problems with "this" scoping in functions like `setHoverState`, where 
-.call()s were added to maintain scope. 
+# Note - this repo is here because I ran into problems with this lib, and had to manually fix problems with "this" scoping in functions like `setHoverState`, where .call()s were added to maintain scope. 
 
 [![NPM](https://nodei.co/npm/mapbox-gl-utils.png)](https://nodei.co/npm/mapbox-gl-utils/)
 
