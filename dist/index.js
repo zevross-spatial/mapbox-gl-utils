@@ -126,7 +126,7 @@ class Utils {
             source: sourceId
           }, l)))];
         });
-        console.log(style);
+        //console.log(style);
       }
 
       if (!params.style) {
@@ -259,7 +259,7 @@ Object.assign(Utils.prototype, {
   }),
 
   hoverPopup(layers, cb) {
-    console.log(this.map);
+    //console.log(this.map);
     var map = this.map;
     var popupOptions = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
     var popup = new this.mapboxgl.Popup(_objectSpread({
